@@ -6,3 +6,4 @@ let numbersCopy = numbers.map((item) => item * 2);
 console.log(numbers);
 console.log(numbersCopy);
 export default () => { };
+//readonly deixa o array ou tupla em apenas leitura. imutável.
