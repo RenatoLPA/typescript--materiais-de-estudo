@@ -3,9 +3,9 @@ type Salary = number | string;
 type Programmer = {
   name: string;
   age: number;
-  skills?: string[];
+  skills?: string[]; //o ? significa que é opcional, nem todo programador tem essa opção.
   contact: { email: string; phone: string };
-  salary?: Salary
+  salary?: Salary    //o ? significa que é opcional, nem todo programador tem essa opção.
 };
 
 export function showProgrammer(programmer: Programmer) {
